@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("PyhtonBot.html")
+    return render_template("index.html")
 
 @app.route("/get_response", methods=["POST"])
 def get_response():
